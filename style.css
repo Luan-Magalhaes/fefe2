@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(
+    to left,
+    rgba(112, 246, 255, 0.33) 11.2%,
+    rgba(221, 108, 241, 0.26) 42%,
+    rgba(229, 106, 253, 0.71) 71.5%,
+    rgba(123, 183, 253, 1) 100.2%
+  );
+}
+
+.painel {
+  object-fit: cover;
+  margin: auto;
+  height: 500px;
+  margin-top: 70px;
+  background-color: white;
+  width: 400px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#sim {
+  margin-top: 30px;
+  height: 40px;
+  width: 80px;
+  background-color: #16c9e0;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  color: white;
+  margin-left: -50px;
+  font-weight: 600;
+}
+#nao {
+  margin-top: 30px;
+  position: absolute;
+  height: 40px;
+  width: 80px;
+  background-color: #1619e0;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  color: white;
+  margin-left: 10px;
+  font-weight: 600;
+}
